@@ -8,6 +8,8 @@ and this project adheres to
 
 
 ## [Unreleased]
+
+## [0.0.9] — 2019-08-04
 ### Added
 - Automatically update version number in README.md on release.
 
@@ -51,4 +53,5 @@ and this project adheres to
 [0.0.6]: https://github.com/logicblocks/pathological/compare/0.0.5...0.0.6
 [0.0.7]: https://github.com/logicblocks/pathological/compare/0.0.6...0.0.7
 [0.0.8]: https://github.com/logicblocks/pathological/compare/0.0.7...0.0.8
-[Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.8...HEAD
+[0.0.9]: https://github.com/logicblocks/pathological/compare/0.0.8...0.0.9
+[Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.9...HEAD
