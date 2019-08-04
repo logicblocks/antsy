@@ -8,6 +8,8 @@ and this project adheres to
 
 
 ## [Unreleased]
+
+## [0.0.6] — 2019-08-04
 ### Added
 - README.md now includes usage information.
 
@@ -36,4 +38,5 @@ and this project adheres to
 [0.0.3]: https://github.com/logicblocks/pathological/compare/0.0.2...0.0.3
 [0.0.4]: https://github.com/logicblocks/pathological/compare/0.0.3...0.0.4
 [0.0.5]: https://github.com/logicblocks/pathological/compare/0.0.4...0.0.5
-[Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.5...HEAD
+[0.0.6]: https://github.com/logicblocks/pathological/compare/0.0.5...0.0.6
+[Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.6...HEAD
