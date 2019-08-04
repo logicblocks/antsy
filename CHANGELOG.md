@@ -8,8 +8,12 @@ and this project adheres to
 
 
 ## [Unreleased]
+### Fixed
+- Corrected format in `docs/supported-display-aspects.md`.
 
 ## [0.0.3] — 2019-08-04
+### Added
+- Getting Started and Supported Display Aspects documentation topics.
 
 ## [0.0.2] — 2019-08-04
 ### Fixed

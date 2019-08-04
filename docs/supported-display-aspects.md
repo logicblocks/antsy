@@ -8,24 +8,18 @@ be supported by your terminal.
 * `:bold`
 * `:faint`
 * `:normal`
-   
 * `:italicised`
 * `:not-italicised`
-   
 * `:underlined`
 * `:doubly-underlined`
 * `:not-underlined`
-   
 * `:slowly-blinking`
 * `:rapidly-blinking`
 * `:steady`
-   
 * `:negative`
 * `:positive`
-   
 * `:concealed`
 * `:revealed`
-   
 * `:crossed-out`
 * `:not-crossed-out`
 
