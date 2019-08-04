@@ -157,10 +157,8 @@
   (string/join
     (concat
       (map (fn [aspect]
-             (var-get
-               (ns-resolve
-                 'antsy.core
-                 (symbol (str (name aspect) "-escape-sequence")))))
+             @(resolve
+                (symbol (str (name aspect) "-escape-sequence"))))
         aspects)
       [text reset-escape-sequence])))
 
