@@ -8,6 +8,8 @@ and this project adheres to
 
 
 ## [Unreleased]
+### Added
+- Add tests of all functions/constants.
 
 ## [0.0.6] — 2019-08-04
 ### Added
