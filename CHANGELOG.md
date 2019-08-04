@@ -8,6 +8,8 @@ and this project adheres to
 
 
 ## [Unreleased]
+### Added
+- Automatically update version number in README.md on release.
 
 ## [0.0.9] — 2019-08-04
 ### Added
