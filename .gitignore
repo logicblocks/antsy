@@ -10,4 +10,7 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
+*.iml
+*.iws
+*.ipr
 .DS_Store

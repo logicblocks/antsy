@@ -8,6 +8,8 @@ and this project adheres to
 
 
 ## [Unreleased]
+### Fixed
+- Documentation now includes the correct repo and namepsace.
 
 ## [0.0.1] — 2019-08-04
 ### Added

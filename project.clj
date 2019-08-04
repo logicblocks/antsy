@@ -23,9 +23,9 @@
   {:ns-exclude-regex [#"^user"]}
 
   :codox
-  {:namespaces  [#"^pathological\."]
+  {:namespaces  [#"^antsy\."]
    :output-path "docs"
-   :source-uri  "https://github.com/logicblocks/pathological/blob/{version}/{filepath}#L{line}"}
+   :source-uri  "https://github.com/logicblocks/antsy/blob/{version}/{filepath}#L{line}"}
 
   :cljfmt {:indents ^:replace {#".*" [[:inner 0]]}}
 
