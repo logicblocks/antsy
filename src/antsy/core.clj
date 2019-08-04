@@ -158,7 +158,7 @@
       (map (fn [aspect]
              (var-get
                (ns-resolve
-                 'support.ansi
+                 'antsy.core
                  (symbol (str (name aspect) "-escape-sequence")))))
         aspects)
       [text reset-escape-sequence])))

@@ -25,6 +25,7 @@
   :codox
   {:namespaces  [#"^antsy\."]
    :output-path "docs"
+   :doc-paths ["docs"]
    :source-uri  "https://github.com/logicblocks/antsy/blob/{version}/{filepath}#L{line}"}
 
   :cljfmt {:indents ^:replace {#".*" [[:inner 0]]}}
