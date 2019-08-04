@@ -8,7 +8,10 @@ and this project adheres to
 
 
 ## [Unreleased]
+
+## [0.0.1] — 2019-08-04
 ### Added
 - First version of `antsy.core`.
 
+[0.0.1]: https://github.com/logicblocks/pathological/compare/0.0.1...0.0.1
 [Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.1...HEAD
