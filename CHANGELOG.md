@@ -8,6 +8,8 @@ and this project adheres to
 
 
 ## [Unreleased]
+
+## [0.0.2] — 2019-08-04
 ### Fixed
 - Documentation now includes the correct repo and namepsace.
 
@@ -16,4 +18,5 @@ and this project adheres to
 - First version of `antsy.core`.
 
 [0.0.1]: https://github.com/logicblocks/pathological/compare/0.0.1...0.0.1
-[Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.1...HEAD
+[0.0.2]: https://github.com/logicblocks/pathological/compare/0.0.1...0.0.2
+[Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.2...HEAD
