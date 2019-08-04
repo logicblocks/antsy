@@ -8,6 +8,7 @@ and this project adheres to
 
 
 ## [Unreleased]
-
+### Added
+- First version of `antsy.core`.
 
 [Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.1...HEAD
