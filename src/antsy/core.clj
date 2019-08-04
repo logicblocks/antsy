@@ -118,7 +118,8 @@
   `(def ~(vary-meta
            (symbol (str (name aspect-name) "-escape-sequence"))
            assoc :const true)
-     ~(format "The ANSI escape sequence for the SGR aspect '%s'." aspect-name)
+     ~(format "The ANSI escape sequence for the SGR aspect '%s'."
+        (name aspect-name))
      (str csi ~aspect-code sgr-suffix)))
 
 (defmacro ^:private def-sgr-fn
@@ -131,7 +132,7 @@
           (str
             "Wraps the provided text with the relevant ANSI escape sequences "
             "to apply the SGR aspect '%s'.")
-          aspect-name)
+          (name aspect-name))
        [~arg]
        (str
          csi ~aspect-code sgr-suffix
@@ -163,4 +164,6 @@
         aspects)
       [text reset-escape-sequence])))
 
-(def -> render)
+(def ->
+  "Renders the provided text applying all provided SGR aspects."
+  render)

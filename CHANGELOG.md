@@ -8,6 +8,8 @@ and this project adheres to
 
 
 ## [Unreleased]
+### Fixed
+- Corrected documentation in `antsy.core`.
 
 ## [0.0.4] — 2019-08-04
 ### Fixed
