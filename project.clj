@@ -1,4 +1,4 @@
-(defproject io.logicblocks/antsy "0.0.11-SNAPSHOT"
+(defproject io.logicblocks/antsy "0.0.11"
   :description "Simple ANSI escape code library for Clojure."
   :url "https://github.com/logicblocks/antsy"
 
