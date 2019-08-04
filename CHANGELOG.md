@@ -8,6 +8,8 @@ and this project adheres to
 
 
 ## [Unreleased]
+
+## [0.0.5] — 2019-08-04
 ### Fixed
 - Corrected documentation in `antsy.core`.
 
@@ -31,4 +33,5 @@ and this project adheres to
 [0.0.2]: https://github.com/logicblocks/pathological/compare/0.0.1...0.0.2
 [0.0.3]: https://github.com/logicblocks/pathological/compare/0.0.2...0.0.3
 [0.0.4]: https://github.com/logicblocks/pathological/compare/0.0.3...0.0.4
-[Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.4...HEAD
+[0.0.5]: https://github.com/logicblocks/pathological/compare/0.0.4...0.0.5
+[Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.5...HEAD
