@@ -8,6 +8,8 @@ and this project adheres to
 
 
 ## [Unreleased]
+
+## [0.0.7] — 2019-08-04
 ### Added
 - Add tests of all functions/constants.
 
@@ -41,4 +43,5 @@ and this project adheres to
 [0.0.4]: https://github.com/logicblocks/pathological/compare/0.0.3...0.0.4
 [0.0.5]: https://github.com/logicblocks/pathological/compare/0.0.4...0.0.5
 [0.0.6]: https://github.com/logicblocks/pathological/compare/0.0.5...0.0.6
-[Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.6...HEAD
+[0.0.7]: https://github.com/logicblocks/pathological/compare/0.0.6...0.0.7
+[Unreleased]: https://github.com/logicblocks/pathological/compare/0.0.7...HEAD
