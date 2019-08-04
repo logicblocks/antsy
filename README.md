@@ -34,6 +34,11 @@ Add the following to your `project.clj` file:
 See the [API Docs](http://logicblocks.github.io/antsy) for a more complete
 getting started guide.
 
+## Credits
+
+`antsy` is heavily inspired by [`pretty`](https://github.com/AvisoNovate/pretty)
+and [`clansi`](https://github.com/ams-clj/clansi).
+
 ## License
 
 Copyright &copy; 2019 LogicBlocks Maintainers
