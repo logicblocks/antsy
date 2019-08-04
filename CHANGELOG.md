@@ -8,6 +8,8 @@ and this project adheres to
 
 
 ## [Unreleased]
+### Added
+- README.md now includes usage information.
 
 ## [0.0.5] — 2019-08-04
 ### Fixed

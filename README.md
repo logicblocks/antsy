@@ -16,7 +16,23 @@ Add the following to your `project.clj` file:
 
 ## Usage
 
-FIXME
+```clojure
+(require '[antsy.core :as antsy])
+
+(println (str
+           antsy/bold-escape-sequence
+           antsy/red-bg-escape-sequence 
+           "Important!"
+           antsy/reset-escape-sequence))
+
+(println (antsy/bold "Important!"))
+(println (antsy/red-fg "Something went wrong..."))
+
+(println (antsy/-> "[Incoming Message]" :bold :green-fg))
+```
+
+See the [API Docs](http://logicblocks.github.io/antsy) for a more complete
+getting started guide.
 
 ## License
 
