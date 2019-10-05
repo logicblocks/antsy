@@ -1,5 +1,9 @@
 # antsy
 
+[![Clojars Project](https://img.shields.io/clojars/v/io.logicblocks/antsy.svg)](https://clojars.org/io.logicblocks/antsy)
+[![Clojars Downloads](https://img.shields.io/clojars/dt/io.logicblocks/antsy.svg)](https://clojars.org/io.logicblocks/antsy)
+[![GitHub Contributors](https://img.shields.io/github/contributors-anon/logicblocks/antsy.svg)](https://github.com/logicblocks/antsy/graphs/contributors)
+
 Simple ANSI escape code library.
 
 ## Install
