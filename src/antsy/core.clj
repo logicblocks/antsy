@@ -54,19 +54,19 @@
   cyan-bg-escape-sequence
   white-bg-escape-sequence)
 
-(def ^:const csi
+(def csi
   "The Control Sequence Introducer (CSI): `ESC [`."
   "\u001b[")
 
-(def ^:const sgr-suffix
+(def sgr-suffix
   "The Select Graphic Rendition (SGR) suffix: m."
   "m")
 
-(def ^:const reset-escape-sequence
+(def reset-escape-sequence
   "The SGI escape sequence to reset to defaults."
   (str csi 0 sgr-suffix))
 
-(def ^:const aspect-codes
+(def aspect-codes
   "Codes for Select Graphic Rendition (SGR) display aspects."
   {:bold              1
    :faint             2
