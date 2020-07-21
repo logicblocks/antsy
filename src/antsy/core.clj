@@ -151,14 +151,16 @@
 
 (def-all)
 
+(def ^:private defining-ns *ns*)
+
 (defn render
   "Renders the provided text applying all provided SGR aspects."
   [text & aspects]
   (string/join
     (concat
-      (map (fn [aspect]
-             @(resolve
-                (symbol (str (name aspect) "-escape-sequence"))))
+      (mapv (fn [aspect]
+              @(ns-resolve defining-ns
+                 (symbol (str (name aspect) "-escape-sequence"))))
         aspects)
       [text reset-escape-sequence])))
 
