@@ -142,12 +142,11 @@
 (defmacro ^:private def-all
   "Defines escape sequences and functions for all SGR aspects."
   []
-  `(do
-     ~@(map (fn [[aspect-name aspect-code]]
-              `(do
-                 (def-sgr-escape-sequence ~aspect-name ~aspect-code)
-                 (def-sgr-fn ~aspect-name ~aspect-code)))
-         aspect-codes)))
+  (mapv (fn [[aspect-name aspect-code]]
+          `(do
+             (def-sgr-escape-sequence ~aspect-name ~aspect-code)
+             (def-sgr-fn ~aspect-name ~aspect-code)))
+    aspect-codes))
 
 (def-all)
 

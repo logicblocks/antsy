@@ -1,8 +1,8 @@
 (ns antsy.core-test
   (:require
-    [clojure.test :refer :all]
+   [clojure.test :refer :all]
 
-    [antsy.core :as antsy]))
+   [antsy.core :as antsy]))
 
 (deftest escape-sequences
   (is (= "\u001B[0m" antsy/reset-escape-sequence))
