@@ -20,10 +20,10 @@
   :profiles
   {:shared
    ^{:pom-scope :test}
-   {:dependencies [[org.clojure/clojure "1.10.1"]
-                   [org.clojure/tools.trace "0.7.10"]
+   {:dependencies [[org.clojure/clojure "1.10.3"]
+                   [org.clojure/tools.trace "0.7.11"]
 
-                   [nrepl "0.7.0"]
+                   [nrepl "0.8.3"]
 
                    [eftest "0.5.9"]]}
    :dev
