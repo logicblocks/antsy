@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.0.16] — 2023-06-09
+
 ### Changes
 
 - All dependencies have been upgraded to the latest available versions.
@@ -124,4 +126,5 @@ and this project adheres to
 [0.0.12]: https://github.com/logicblocks/antsy/compare/0.0.12...0.0.12
 [0.0.13]: https://github.com/logicblocks/antsy/compare/0.0.12...0.0.13
 [0.0.15]: https://github.com/logicblocks/antsy/compare/0.0.13...0.0.15
-[Unreleased]: https://github.com/logicblocks/antsy/compare/0.0.15...HEAD
+[0.0.16]: https://github.com/logicblocks/antsy/compare/0.0.15...0.0.16
+[Unreleased]: https://github.com/logicblocks/antsy/compare/0.0.16...HEAD

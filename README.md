@@ -11,7 +11,7 @@ Simple ANSI escape code library.
 Add the following to your `project.clj` file:
 
 ```clj
-[io.logicblocks/antsy "0.0.15"]
+[io.logicblocks/antsy "0.0.16"]
 ```
 
 ## Documentation
