@@ -25,7 +25,7 @@ Add the following to your `project.clj` file:
 
 (println (str
            antsy/bold-escape-sequence
-           antsy/red-bg-escape-sequence 
+           antsy/red-bg-escape-sequence
            "Important!"
            antsy/reset-escape-sequence))
 
@@ -47,5 +47,5 @@ and [`clansi`](https://github.com/ams-clj/clansi).
 
 Copyright &copy; 2019 LogicBlocks Maintainers
 
-Distributed under the terms of the 
+Distributed under the terms of the
 [MIT License](http://opensource.org/licenses/MIT).
