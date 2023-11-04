@@ -64,12 +64,13 @@ commands:
   configure_build_tools:
     steps:
       - run: ./scripts/ci/common/install-openjdk.sh
-  configure_release_tools:
+  configure_secrets_tools:
     steps:
-      - run: ./scripts/ci/common/install-openjdk.sh
       - run: ./scripts/ci/common/upgrade-gpg.sh
       - run: ./scripts/ci/common/install-git-crypt.sh
       - run: ./scripts/ci/common/install-gpg-key.sh
+  configure_release_tools:
+    steps:
       - run: ./scripts/ci/common/configure-git.sh
       - run: ./scripts/ci/common/configure-clojars.sh
 
@@ -95,6 +96,8 @@ jobs:
     <<: *ruby_container
     steps:
       - checkout
+      - configure_build_tools
+      - configure_secrets_tools
       - configure_release_tools
       - run: ./scripts/ci/steps/prerelease.sh
       - notify
@@ -103,6 +106,8 @@ jobs:
     <<: *ruby_container
     steps:
       - checkout
+      - configure_build_tools
+      - configure_secrets_tools
       - configure_release_tools
       - run: ./scripts/ci/steps/release.sh
       - notify
@@ -112,6 +117,7 @@ jobs:
     steps:
       - checkout
       - configure_build_tools
+      - configure_secrets_tools
       - run: ./scripts/ci/steps/merge-pull-request.sh
       - notify
 
